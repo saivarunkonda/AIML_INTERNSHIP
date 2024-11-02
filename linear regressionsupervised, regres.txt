@@ -1,0 +1,18 @@
+linear regression:supervised, regression model->y=mx+c m=sum(x-x')(y
+
+logistic regression:  supervised, classification model(mostly binary), 
+  first -> logistic or sigmoid 
+  second-> likelihood
+  third -> sum of log of likelihood
+  fourth->update rule:m=m+a- ; c=c+a, till constant value 
+  fifth ->classification matrix:
+           1. Confusion matrix(binary)
+              TP  FP
+              TN  FN  
+           accuracy =(TP +TN)/total
+     2. precision
+      tp/(tp+fp)
+  3. recall
+    tp/(tp+fn)
+4. f1 score:balance of precision and recall
+  2(PR)/(p+R)
